@@ -1,0 +1,43 @@
+<HTML>
+<HEAD>
+  <TITLE>検索フォーム</TITLE>
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./style.css" />
+</HEAD>
+
+<BODY>
+<div id="wrap">
+  <div id="head">
+    <h1>検索フォーム</h1>
+  </div>
+
+  <div id="content">検索したいキーワードを入力して「検索」ボタンを押してください。<BR><BR>
+
+    <FORM ACTION="search.php" METHOD="GET">
+      <table border="1">
+        <tr>
+          <td valign="top">ニックネーム</td>
+          <td>
+            <input type="text" name="name" size="50"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">キーワード</td>
+          <td>
+            <input type="text" name="keyword" size="50"><br>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <input type="submit" value="検索">
+    </form>
+    <br>
+    <a href="./index.php">投稿/一覧画面へ</a>
+  </div>
+</div>
+
+</BODY>
+  
+
+</HTML>
+
